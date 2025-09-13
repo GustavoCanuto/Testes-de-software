@@ -2,12 +2,12 @@ package elementos;
 
 import org.openqa.selenium.WebDriver;
 
-public class DemoSimpleSearchPage {
+public class ElementoLogin {
 
     private WebDriver driver;
-    private final String url = "https://marcelodebittencourt.com/demopages/demosimplesearch/";
+    private final String url = "https://the-internet.herokuapp.com/login";
 
-    public DemoSimpleSearchPage(WebDriver driver) {
+    public ElementoLogin(WebDriver driver) {
         this.driver = driver;
     }
 
